@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+.board {
+  text-align: center;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-width: 1px;
+  border-color: black;
+}
+.square2,.square8 {
+  border-style: none solid;
+}
+.square4, .square6 {
+  border-style: solid none;
+}
+.square5 {
+  border-style: solid;
+}
