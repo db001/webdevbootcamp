@@ -7,28 +7,27 @@ font: source sans pro
 
 body {
   font-family: "Source Sans Pro";
+  color: #2c3e50
 }
 
 .container {
-  width: 60%;
+  max-width: 700px;
+  width: 80%;
   border: 15px solid #bdc3c7;
   padding: 0 15px;
-  margin: 0 auto;
-}
-article {
-
+  margin: 20px auto;
 }
 p {
-  font-weight: 600;
+  font-weight: 400;
 }
 .date {
   color: #3498db;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
 }
 .headline {
-  color: #2c3e50;
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 2rem;
 }
 .quote {
   border-left: 5px solid #bdc3c7;
@@ -38,5 +37,5 @@ p {
 
 }
 hr {
-  border-top: 1px solid #f1f1f1;
+  border: 1px solid #f1f1f1;
 }
